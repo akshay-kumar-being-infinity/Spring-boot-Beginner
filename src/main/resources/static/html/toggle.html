@@ -12,9 +12,20 @@
             <li><a href="/index.html">Home</a></li>
             <li><a href="/html/card.html">Card</a></li>
             <li><a href="/html/toggle.html">Toggle</a></li>
+            <li><a href="/html/random-user.html">Random User</a></li>
         </ul>
     </nav>
-    <h1>This is Toggle page.</h1>
-    <script src="/js/site.js"></script>
+    <!-- <h1>This is Toggle page.</h1> -->
+    <div class="container">
+        <div class="user-card">
+            <img id="userImg" src="../assets/male.png" alt="User Photo">
+            <h2 id="userName">Alex</h2>
+            <p id="userGender">Male</p>
+            
+            <button class="action-btn" onclick="toggleUser()">Next User</button>
+        </div>
+    </div>
+
+    <script src="/js/toggle.js"></script>
 </body>
 </html>

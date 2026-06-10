@@ -24,3 +24,59 @@ nav a {
     color: antiquewhite;
     padding: 20px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-card {
+    background-color: #ffffff;
+    border: 1px solid #e4e7ed;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+.user-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #2563EB;
+}
+
+.user-card h2 {
+    margin: 0 0 5px 0;
+    color: #1A1D23;
+}
+
+.user-card p {
+    margin: 0 0 20px 0;
+    color: #4B5563;
+    text-transform: capitalize;
+}
+
+.action-btn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+    background-color: #1d4ed8;
+}
